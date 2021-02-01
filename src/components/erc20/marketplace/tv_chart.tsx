@@ -6,7 +6,7 @@ import {
     IChartingLibraryWidget,
     LanguageCode,
     widget,
-} from '../../../charting_library/charting_library.min';
+} from '../../../charting_library/charting_library.min.js';
 import { RELAYER_URL } from '../../../common/constants';
 import { UDFCompatibleDatafeed } from '../../../datafeeds/udf/lib/udf-compatible-datafeed';
 
@@ -100,13 +100,13 @@ export default class TVChartContainer extends React.PureComponent<Partial<ChartC
             loading_screen: { backgroundColor: '#02112c' },
         };
 
-        // const tvWidget = new widget(widgetOptions);
-        // this._tvWidget = tvWidget;
+        const tvWidget = new widget(widgetOptions);
+        this._tvWidget = tvWidget;
 
-        // // tslint:disable-next-line: no-empty
-        // tvWidget.onChartReady(() => {
-        //     this.setState({ ready: true });
-        // });
+        // tslint:disable-next-line: no-empty
+        tvWidget.onChartReady(() => {
+            this.setState({ ready: true });
+        });
     }
 
     public componentWillUnmount(): void {

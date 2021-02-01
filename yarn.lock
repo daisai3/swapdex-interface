@@ -3391,20 +3391,18 @@
     "@typescript-eslint/types" "4.11.0"
     eslint-visitor-keys "^2.0.0"
 
-"@uniswap/default-token-list@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/default-token-list/-/default-token-list-1.5.0.tgz#daa07575e2ae6bf92441e64af32122e3847ffcb7"
-  integrity sha512-TF5U+9ED6N+qrJKfoocci2vJ0u/57cxeUrnoDazqzLnGcoAp9FVMyi+n0ebz6Ka1AqFCIXkHGwQy+8GVQFTQdw==
+"@uniswap/default-token-list@https://github.com/69th-byte/swapdex-default-token-list.git":
+  version "1.3.1"
+  resolved "https://github.com/69th-byte/swapdex-default-token-list.git#4b97cca6a20722cb19c779e207ac3cc77a698096"
 
 "@uniswap/lib@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-1.1.1.tgz#0afd29601846c16e5d082866cbb24a9e0758e6bc"
   integrity sha512-2yK7sLpKIT91TiS5sewHtOa7YuM8IuBXVl4GZv2jZFys4D2sY7K5vZh6MqD25TPA95Od+0YzCVq6cTF2IKrOmg==
 
-"@uniswap/sdk@^3.0.3":
+"@uniswap/sdk@https://github.com/69th-byte/Swapdex-sdk":
   version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk/-/sdk-3.0.3.tgz#8201c7c72215d0030cb99acc7e661eff895c18a9"
-  integrity sha512-t4s8bvzaCFSiqD2qfXIm3rWhbdnXp+QjD3/mRaeVDHK7zWevs6RGEb1ohMiNgOCTZANvBayb4j8p+XFdnMBadQ==
+  resolved "https://github.com/69th-byte/Swapdex-sdk#b92c6289eabe460684cf485ef6e41ce7f5aca055"
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
